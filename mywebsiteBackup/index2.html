@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noodles NFT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    
+</head>
+<body>
+    <body class="bg-black muli" background="background.png">
+        <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-pink">
+            <div class="flex justify-between">
+                <a href="#" class="flex items-center p-2 mr-4 no-underline">
+                    <img class="max-h-10 max-w-50 w-100pc" src="logo.webp" />
+                </a>
+                <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+                    class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
+                    <i data-feather="menu"></i>
+                </a>
+            </div>
+            <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
+                <a href="#" class="fs-s1 mx-3 py-3 black no-underline hover-underline">SHOP MERCH</a>
+                <a href="#" class="fs-s1 mx-3 py-3 black no-underline hover-underline">BUY A NOODLE</a>
+                <a onclick="connectWallet()" class="button bg-white black fw-600 no-underline mx-5" id="wallet-address">CONNECT WALLET</a>
+            </div>
+        </nav>
+    
+        <section id="home" class="min-h-100vh flex justify-start items-center">
+            <div>
+                <img src="gif1.gif" alt="">
+            </div>
+            <div class="mx-3 md-justify-end md-mx-l5">
+                <div class="inline-block br-round bg-indigo-30 indigo-lightest p-2 fs-s2 mb-5">
+                    <h2>NOODLES IN SPACE</h2>
+                </div>
+                <div>
+                    <h1 class="black fs-s1 lh-2 md-fs-m3 md-lh-1 fw-450 ">Space Noodles is an expedition <br>"out of this world" <br> find the best food in the galaxy.
+    
+                        <br>We have built our food ships using materials <br>that are found right here in our very own, Noodle World.
+                        
+                        <br>Pack your seasoning, <br>butter up the engines, <br>we're going to Space. <br>Noodlers who dare venture out of their bowl, <br>can build their own unique food ship in the beginning of March 2022.</h1>
+    
+                    <div class="br-8 mt-10 inline-flex">
+                        <button
+                            class="button-lg bg-black-lightest-20 indigo-lightest focus-black fw-300 fs-s3 mr-0 br-l-0" onclick="sendTxn()">
+                            BUILD FOOD SHIP
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+</body>
+</html>
